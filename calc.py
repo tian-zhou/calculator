@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 # pytest following tutorial: https://semaphoreci.com/community/tutorials/testing-python-applications-with-pytest
 
 

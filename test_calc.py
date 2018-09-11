@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 # the filename should always start with test_xxx.py
 
 import pytest
@@ -10,6 +8,7 @@ def test_add():
 	assert calc.add(10, 5) == 15
 	assert calc.add(-1, 1) == 0
 	assert calc.add(-2, -3) == -5
+	assert calc.add(4, 5) == 9
 	
 	# a special Context Manager syntax
 	with pytest.raises(TypeError):
